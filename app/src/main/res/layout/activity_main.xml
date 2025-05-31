@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Intent: "
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_payment_intent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text=""
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Amount: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_amount"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="1090" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Description: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="Software development services" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Shipping Name: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_shipping_name"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="Jenny Rosen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Address Line 1: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_address_line1"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="textPostalAddress"
+                android:text="510 Townsend St" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Postal Code: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_postal_code"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="98140" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="City: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_city"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:text="San Francisco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="State: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_state"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="CA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Country: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_country"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="US" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Currency: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_currency"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="usd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Payment Method Type: "
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_payment_method_type"
+                android:layout_width="200dp"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="card" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:textColor="#2962FF"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="status"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_payment_intent"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Get Payment Intent" />
+
+        <Button
+            android:id="@+id/pay_now"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#AA00FF"
+            android:text="Pay now" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

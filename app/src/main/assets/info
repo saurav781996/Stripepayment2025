@@ -1,0 +1,33 @@
+
+Stripe Keys Url:
+https://docs.stripe.com/keys
+
+
+stripe test card number :
+
+Visa	4242424242424242	Any 3 digits	Any future date
+
+
+
+Stripe Payment intent curl:
+
+curl --location 'https://api.stripe.com/v1/payment_intents' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic c2tfdGVzdF90UjNQWWJjVk5aWjc5NnRIODhTNFZRMnU6' \
+--data-urlencode 'amount=1000' \
+--data-urlencode 'currency=usd' \
+--data-urlencode 'description=Test Payment' \
+--data-urlencode 'payment_method_types%5B%5D=card' \
+--data-urlencode 'shipping%5Bname%5D=John Doe' \
+--data-urlencode 'shipping%5Baddress%5D%5Bline1%5D=123 Main Street' \
+--data-urlencode 'shipping%5Baddress%5D%5Bpostal_code%5D=10001' \
+--data-urlencode 'shipping%5Baddress%5D%5Bcity%5D=New York' \
+--data-urlencode 'shipping%5Baddress%5D%5Bstate%5D=NY' \
+--data-urlencode 'shipping%5Baddress%5D%5Bcountry%5D=US'
+
+
+
+
+
+
+
